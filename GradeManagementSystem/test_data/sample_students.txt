@@ -1,0 +1,4 @@
+Mahesh Ayerathan, 92, 88, 90, 85, 94
+Priya Sharma, 86, 91, 89, 84, 88
+Arjun Kumar, 78, 82, 75, 80, 79
+Sana Khan, 69, 74, 71, 68, 73
