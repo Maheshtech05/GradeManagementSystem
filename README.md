@@ -1,40 +1,35 @@
-# GradeManagementSystem
-A Java console-based grade management system for tracking student marks, grades, and performance reports
-
 # Grade Management System (Java)
 
-A **menu-driven Java console application** for managing and analyzing student academic performance.  
-The system stores student marks for multiple subjects, validates inputs, calculates grades internally, ranks students, and generates detailed performance reports.
-
----
+A menu-driven Java console application to manage student marks, calculate averages,
+assign grades, identify top performers, and generate performance reports.
 
 ## Features
-
-- Add student marks with validation (0–100)
-- Store marks for 5 subjects:
-  - Mathematics
-  - Science
-  - English
-  - History
-  - Computer
-- View all students and their subject-wise marks
-- Calculate averages and grades (A, B, C, D, F)
-- Pass/Fail status determination
-- Class ranking and top performers
-- Subject-wise and overall performance reports
-- Preloaded sample data + dynamic student entry
-- Clean Object-Oriented Programming (OOP) design
-
----
+- Add student marks
+- View all students with subject-wise marks
+- Calculate averages and grades
+- Identify top performers
+- Generate performance reports
+- Input validation for marks (0–100)
 
 ## Technologies Used
+- Java (JDK 11+)
+- IntelliJ IDEA
+- ArrayList
+- OOP Concepts
 
-- Java
-- Object-Oriented Programming (OOP)
-- Arrays and ArrayList
-- Console-based UI
+## Project Structure
+- src/        → Java source files
+- docs/       → Documentation
+- test_data/  → Sample data and test cases
 
----
+## How to Run
+### IntelliJ IDEA
+1. Open project
+2. Mark `src` as Sources Root
+3. Run `GradeManagementSystem.java`
 
-## 📂 Project Structure
+### Command Line
+```bash
+javac src/*.java
+java -cp src GradeManagementSystem
 
